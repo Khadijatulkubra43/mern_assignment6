@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce website</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assignment6.css">
+</head>
+<body>
+<div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" id="logo">
+        <img src="images/shopping-bag-icon.png">
+        E-Commerece </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="assignment6.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Product
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Shirt-paint</a></li>
+            <li><a class="dropdown-item" href="#">SHOES</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Another product</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--Header-->
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/shooping-ad-1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="btn btn-light">Shop Now</button>
+      </div>
+      <div class="carousel-item">
+        <img src="images/shooping-ad-3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Best Price & offer</h5>
+        <p>NEW SEASON</p>
+        <button class="btn btn-light">Shop Now</button>
+      </div>
+      <div class="carousel-item">
+        <img src="images/shooping-ad-2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <button class="btn btn-light">Shop Now</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--CARDS-->
+  <!--card1-->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col md-3">
+          <div class="card" style="width: 15rem;">
+            <img src="images/c_tunic-shirt_girl.png">
+            <div class="card-header">
+              <h4>Tunic-Shirt</h4>
+             <h5>$50</h5>
+              <div class="card-body">
+                <div class="card-footer">
+                  <button class="btn btn-success">Order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card" style="width: 15rem;">
+            <img src="images/c_polo-shirt.png">
+            <div class="card-header">
+              <h4>Polo-Shirt</h4>
+              <h5>$70</h5>
+              <div class="card-body">
+                <div class="card-footer">
+                  <button class="btn btn-success">Order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card" style="width: 15rem;">
+            <img src="images/c_t-shirt_men.png">
+            <div class="card-header">
+              <h4>T-shirt-men</h4>
+              <h5>$80</h5>
+              <div class="card-body">
+                <div class="card-footer">
+                  <button class="btn btn-success">Order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col md-3">
+          <div class="card" style="width: 15rem;">
+            <img src="images/c_undershirt.png">
+            <div class="card-header">
+              <h4>Undershirt</h4>
+              <h5>$65</h5>
+              <div class="card-body">
+                <div class="card-footer">
+                  <button class="btn btn-success">Order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+     <!--card2-->
+     <div class="container my-2">
+     <div class="row">
+      <div class="col md-3">
+        <div class="card" style="width: 15rem;">
+          <img src="images/shirt1.png">
+          <div class="card-header">
+            <h4>Gray-Shirt</h4>
+              <h5>$55</h5>
+            <div class="card-body">
+              <div class="card-footer">
+                <button class="btn btn-success">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col md-3">
+        <div class="card" style="width: 15rem;">
+          <img src="images/top_rated_1.png">
+          <div class="card-header">
+            <h4>Sky-blue-Shirt</h4>
+              <h5>$100</h5>
+            <div class="card-body">
+              <div class="card-footer">
+                <button class="btn btn-success">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col md-3">
+        <div class="card" style="width: 15rem;">
+          <img src="images/top_rated_2.png">
+          <div class="card-header">
+            <h4>watch</h4>
+              <h5>$150</h5>
+            <div class="card-body">
+              <div class="card-footer">
+                <button class="btn btn-success">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col md-3">
+        <div class="card" style="width: 15rem;">
+          <img src="images/top_rated_3.png">
+          <div class="card-header">
+            <h4>RED coat</h4>
+              <h5>$55</h5>
+            <div class="card-body">
+              <div class="card-footer">
+                <button class="btn btn-success">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+  <!--card3-->
+  <div class="container my-5">
+    <div class="row">
+     <div class="col md-3">
+       <div class="card" style="width: 15rem;">
+         <img src="images/girls-paint.png">
+         <div class="card-header">
+           <h4>Girl-paint</h4>
+              <h5>$40</h5>
+           <div class="card-body">
+             <div class="card-footer">
+               <button class="btn btn-success">Order</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col md-3">
+       <div class="card" style="width: 15rem;">
+         <img src="images/c_shirt-girl.png">
+         <div class="card-header">
+           <h4>Short-shirt</h4>
+              <h5>$65</h5>
+           <div class="card-body">
+             <div class="card-footer">
+               <button class="btn btn-success">Order</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col md-3">
+       <div class="card" style="width: 15rem;">
+         <img src="images/c_t-shirt_men.png">
+         <div class="card-header">
+           <h4>T-shirt men</h4>
+              <h5>$75</h5>
+           <div class="card-body">
+             <div class="card-footer">
+               <button class="btn btn-success">Order</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col md-3">
+       <div class="card" style="width: 15rem;">
+         <img src="images/c_western-shirt.png">
+         <div class="card-header">
+           <h4>Western-shirt</h4>
+              <h5>$45</h5>
+           <div class="card-body">
+             <div class="card-footer">
+               <button class="btn btn-success">Order</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+ </div>
+ <!--Footer-->
+ <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div>
+          <h3> webistes</h3>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+        <div class="">
+          <h4>Page discribtion</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none">Home</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Service</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6">
+        <div>
+          <h4>Service</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none">Delivery</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Branding</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">ordering</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Good quality product</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6">
+        <div>
+          <h4>Contact</h4>
+          <div>
+            <label for="Newsletter" class="form-label">Like Our site</label>
+            <input type="text" class="form-control" Placeholder="Enter Your Email">
+            <button class="btn btn-danger mt-3">Liked</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="copyright">
+        <p>Developed and maintained by <a href="#" target="_blank">company</a></p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+</body>
+
+    <script src="fontawesome-free-6.4.0-web/js/all.min.js"></script>
+</html>
